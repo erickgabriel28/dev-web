@@ -8,48 +8,93 @@
 
 </head>
 <body>
+      
     
-        <h1>Faça seu cadastro</h1>
+<h1>Hobbies coleguinhas</h1>
 
-    <form action="#" method="post">
+<table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Hobby</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Kaua</td>
+            <td>16</td>
+            <td>Jogar videogame</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Lucas</td>
+            <td>14</td>
+            <td>Jogar Bola</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Miguel</td>
+            <td>14</td>
+            <td>Andar a cavalo</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Marcos</td>
+            <td>18</td>
+            <td>Jogar video game</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Bernado</td>
+            <td>14</td>
+            <td>Jogar bola</td>
+        </tr>
+    </tbody>
+</table>
 
+
+
+        <h2>Formulariozex</h2>
+
+        <form action="#" method="post"></form>
+        
         <label for="nome">Nome:</label>
+        <input type="text" td="nome" placeholder="Seu nome completo..." required>
         <br><br>
-        <input type="text" td="nome" placeholder="Seu nome completo...">
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="seuemail@gnail.com">
         <br><br>
-        <label for="email">E-mail:</label>
+        <label for="cpf">CPF:</label>
+        <input type="text" td="cpf" placeholder="Seu CPF..." required>
         <br><br>
-        <input type="email" id="email" placeholder="seuemail@gnail.com">
+        
+        <fieldset>
+            <legend>Gênero:</legend>
+            <input type="radio" id="masc" name="genero" value="M">
+            <label for="masc">Masculino</label>
+            <input type="radio" id="fem" nome="genero" value="F">
+            <label for="fem">Feminino</label>
+        </fieldset>
         <br><br>
-        <label for="senha">Senha (min 6, so letras e numeros):</label>
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+            <option value="">Selecione...</option>
+            <option value="nh">Novo Hamburgo</option>
+            <option value="sl">Salvador do Sul</option>
+            <option value="cb">Campo Bom</option>
+            <option value="mgo">Porto Alegre</option>
+        </select>
         <br><br>
-        <input type="password" id="senha" pattern="[a-ZA-Z0-9]{6,}" placeholder="Minimo 6 caracteres..." required>
-        <br><br>
-        <label for="Idade">Idade (13 a 99):</label>
-        <br><br>
-        <input type="number" id="idade" min="13" max="99" required>
-        <br><br>
-        <label for="data">Data (so em 2026):</label>
-        <br><br>
-        <input type="date" id="data" min="2026-01-01" max="2026-12-31">
-        <br><br>
+        <label for="tel">Telefone:</label>
         <input type="tel" id="telefone" pattern="/([0-9]{2}\) [0-9]{5}-[0-9]{3}" placeholder="(51) 99999 9999">
-        <br><br>
-        <label for="nota">Nota (0 a 10):</label>
-        <br><br>
-        <input type="range" id="nota" min="10" max="10" value="7">
-        <br><br>
-        <label for="cor">Cor favorita</label>
-        <br><br>
-        <input type="color" id="cor" value="#3498db">
-        <br><br>
-        <label for="codigo">Codigo (gerado automaticamente)</label>
-        <br><br>
-        <input type="text" id="codigo" value="ALU-2026-001" disabled>
         <br><br>
         <button type="submit">Enviar</button>
 
-    </form>
 
 </body>
 </html>
