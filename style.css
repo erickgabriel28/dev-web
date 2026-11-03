@@ -1,22 +1,7 @@
- body{
-    background-color: rgb(153, 140, 125);
- }
- 
-    h1{
-        text-align: center;
-        color: rgb(247, 247, 247);
-        border: 2px dashed black;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 700;
-        font-style: italic;
-        text-decoration: underline;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-    p{
-        border: 2px solid black;
-        border-radius: 30px;
-        background-color: antiquewhite;
-        width: 450px;
-        margin: 10px;
-        padding: 10px;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
+ body{
+    font-family: 'Tiny5 DUo';
+ }
