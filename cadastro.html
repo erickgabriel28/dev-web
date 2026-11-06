@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store - cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="topo">
+        <h1>🕹️Game Store</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#jogos">Jogos</a>
+            <a href="cadastro.gtml">Cadastro</a>
+         </nav>
+    </header>
+    <main class="area-cadastro">
+        <form id="formCadastro">
+            <h2>Crie sua conta</h2>
+            <p>Faça parte da comunidade Game Store!</p><br><br>
+            <label for="nome">Nome completo:</label><br><br>
+            <input type="text" id="Nome" placeholder="Digite seu nome" required><br><br>
+
+            <label for="email">Email</label><br><br>
+            <input type="email" id="email" placeholder="seu@email.com"><br><br>
+
+            <label for="senha">Senha</label><br><br>
+            <input type="password" id="senha" placeholder="Crie sua senha" minlength="6" required><br><br>
+
+            <label for="plataforma">Sua plataforma favorita</label>
+            <select id="plataforma" required>
+                <option value="">Selecione</option>
+                <option value="PC">PC</option>
+                <option value="Playstation">Playstation</option>
+                <option value="Xbox">Xbox</option>
+                <option value="Nintendo">Nintendo</option>
+            </select><br><br>
+            <button type="submit" class="botao">
+                Cadastrar
+            </button>
+            <p id="mensagem" aria-live="polite"></p>
+            <a href="index.html" class="voltar">
+                Voltar para pagina inicial
+            </a>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Game Store - Todos os direitos reservados.
+    </footer>
+
+
+</body>
+</html>
